@@ -1,0 +1,90 @@
+C:\Users\ddddd\source\repos\MainController\bin\Debug\MainController.exe.config
+C:\Users\ddddd\source\repos\MainController\bin\Debug\MainController.exe
+C:\Users\ddddd\source\repos\MainController\bin\Debug\MainController.pdb
+C:\Users\ddddd\source\repos\MainController\obj\Debug\MainController.Properties.Resources.resources
+C:\Users\ddddd\source\repos\MainController\obj\Debug\MainController.csproj.GenerateResource.cache
+C:\Users\ddddd\source\repos\MainController\obj\Debug\MainController.csproj.CoreCompileInputs.cache
+C:\Users\ddddd\source\repos\MainController\obj\Debug\MainController.exe
+C:\Users\ddddd\source\repos\MainController\obj\Debug\MainController.pdb
+C:\Users\ddddd\source\repos\MainController\obj\Debug\MainController.Form2.resources
+C:\Users\ddddd\source\repos\MainController v2\obj\Debug\MainController.Form2.resources
+C:\Users\ddddd\source\repos\MainController v2\obj\Debug\MainController.Properties.Resources.resources
+C:\Users\ddddd\source\repos\MainController v2\obj\Debug\MainController.csproj.GenerateResource.cache
+C:\Users\ddddd\source\repos\MainController v2\obj\Debug\MainController.csproj.CoreCompileInputs.cache
+C:\Users\ddddd\source\repos\MainController v2\obj\Debug\MainController.exe
+C:\Users\ddddd\source\repos\MainController v2\obj\Debug\MainController.pdb
+C:\Users\ddddd\source\repos\MainController v2\bin\Debug\MainController.exe.config
+C:\Users\ddddd\source\repos\MainController v2\bin\Debug\MainController.exe
+C:\Users\ddddd\source\repos\MainController v2\bin\Debug\MainController.pdb
+C:\Users\ddddd\source\repos\MainController v2\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\ddddd\source\repos\MainController v2\bin\Debug\ExcelDataReader.dll
+C:\Users\ddddd\source\repos\MainController v2\bin\Debug\ExcelDataReader.pdb
+C:\Users\ddddd\source\repos\MainController v2\bin\Debug\ExcelDataReader.xml
+C:\Users\ddddd\source\repos\MainController v2\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\Users\ddddd\source\repos\MainController v2\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\ddddd\source\repos\MainController v2\obj\Debug\MainController.csproj.CopyComplete
+C:\Users\ddddd\source\repos\MainController v2\obj\Debug\MainController.Form3.resources
+C:\Users\ddddd\source\repos\MainController v2\obj\Debug\MainController.csproj.AssemblyReference.cache
+C:\Users\ddddd\source\repos\MainController v2\obj\Debug\MainController.csproj.SuggestedBindingRedirects.cache
+C:\Users\ddddd\source\repos\MainController v3\bin\Debug\MainController.exe.config
+C:\Users\ddddd\source\repos\MainController v3\bin\Debug\MainController.exe
+C:\Users\ddddd\source\repos\MainController v3\bin\Debug\MainController.pdb
+C:\Users\ddddd\source\repos\MainController v3\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\ddddd\source\repos\MainController v3\bin\Debug\ExcelDataReader.dll
+C:\Users\ddddd\source\repos\MainController v3\bin\Debug\ExcelDataReader.pdb
+C:\Users\ddddd\source\repos\MainController v3\bin\Debug\ExcelDataReader.xml
+C:\Users\ddddd\source\repos\MainController v3\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\Users\ddddd\source\repos\MainController v3\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\ddddd\source\repos\MainController v3\obj\Debug\MainController.csproj.SuggestedBindingRedirects.cache
+C:\Users\ddddd\source\repos\MainController v3\obj\Debug\MainController.Analysis.resources
+C:\Users\ddddd\source\repos\MainController v3\obj\Debug\MainController.Main.resources
+C:\Users\ddddd\source\repos\MainController v3\obj\Debug\MainController.Settings.resources
+C:\Users\ddddd\source\repos\MainController v3\obj\Debug\MainController.Properties.Resources.resources
+C:\Users\ddddd\source\repos\MainController v3\obj\Debug\MainController.csproj.GenerateResource.cache
+C:\Users\ddddd\source\repos\MainController v3\obj\Debug\MainController.csproj.CoreCompileInputs.cache
+C:\Users\ddddd\source\repos\MainController v3\obj\Debug\MainController.csproj.CopyComplete
+C:\Users\ddddd\source\repos\MainController v3\obj\Debug\MainController.exe
+C:\Users\ddddd\source\repos\MainController v3\obj\Debug\MainController.pdb
+C:\Users\ddddd\source\repos\MainController v3\obj\Debug\MainController.csproj.AssemblyReference.cache
+C:\Users\ddddd\source\repos\MainController v4\bin\Debug\MainController.exe.config
+C:\Users\ddddd\source\repos\MainController v4\bin\Debug\MainController.exe
+C:\Users\ddddd\source\repos\MainController v4\bin\Debug\MainController.pdb
+C:\Users\ddddd\source\repos\MainController v4\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\ddddd\source\repos\MainController v4\bin\Debug\ExcelDataReader.dll
+C:\Users\ddddd\source\repos\MainController v4\bin\Debug\ExcelDataReader.pdb
+C:\Users\ddddd\source\repos\MainController v4\bin\Debug\ExcelDataReader.xml
+C:\Users\ddddd\source\repos\MainController v4\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\Users\ddddd\source\repos\MainController v4\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\ddddd\source\repos\MainController v4\obj\Debug\MainController.csproj.AssemblyReference.cache
+C:\Users\ddddd\source\repos\MainController v4\obj\Debug\MainController.csproj.SuggestedBindingRedirects.cache
+C:\Users\ddddd\source\repos\MainController v4\obj\Debug\MainController.Analysis.resources
+C:\Users\ddddd\source\repos\MainController v4\obj\Debug\MainController.Main.resources
+C:\Users\ddddd\source\repos\MainController v4\obj\Debug\MainController.Settings.resources
+C:\Users\ddddd\source\repos\MainController v4\obj\Debug\MainController.Properties.Resources.resources
+C:\Users\ddddd\source\repos\MainController v4\obj\Debug\MainController.csproj.GenerateResource.cache
+C:\Users\ddddd\source\repos\MainController v4\obj\Debug\MainController.csproj.CoreCompileInputs.cache
+C:\Users\ddddd\source\repos\MainController v4\obj\Debug\MainController.csproj.CopyComplete
+C:\Users\ddddd\source\repos\MainController v4\obj\Debug\MainController.exe
+C:\Users\ddddd\source\repos\MainController v4\obj\Debug\MainController.pdb
+C:\Users\ddddd\source\repos\MainController v4\obj\Debug\MainController.test.resources
+C:\Users\ddddd\source\repos\MainController v4\bin\Debug\MaterialSkin.dll
+C:\Users\ddddd\source\repos\MainController v4\bin\Debug\ScottPlot.dll
+C:\Users\ddddd\source\repos\MainController v4\bin\Debug\System.Drawing.Common.dll
+C:\Users\ddddd\source\repos\MainController v4\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ddddd\source\repos\MainController v4\bin\Debug\System.ValueTuple.dll
+C:\Users\ddddd\source\repos\MainController v4\bin\Debug\ScottPlot.xml
+C:\Users\ddddd\source\repos\MainController v4\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ddddd\source\repos\MainController v4\bin\Debug\System.ValueTuple.xml
+C:\Users\ddddd\source\repos\MainController v4\bin\Debug\OpenCvSharp.dll
+C:\Users\ddddd\source\repos\MainController v4\bin\Debug\System.Buffers.dll
+C:\Users\ddddd\source\repos\MainController v4\bin\Debug\System.Memory.dll
+C:\Users\ddddd\source\repos\MainController v4\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ddddd\source\repos\MainController v4\bin\Debug\OpenCvSharp.xml
+C:\Users\ddddd\source\repos\MainController v4\bin\Debug\System.Buffers.xml
+C:\Users\ddddd\source\repos\MainController v4\bin\Debug\System.Memory.xml
+C:\Users\ddddd\source\repos\MainController v4\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ddddd\source\repos\MainController v4\bin\Debug\dll\x86\OpenCvSharpExtern.dll
+C:\Users\ddddd\source\repos\MainController v4\bin\Debug\dll\x86\opencv_videoio_ffmpeg455.dll
+C:\Users\ddddd\source\repos\MainController v4\bin\Debug\dll\x64\OpenCvSharpExtern.dll
+C:\Users\ddddd\source\repos\MainController v4\bin\Debug\dll\x64\opencv_videoio_ffmpeg455_64.dll
+C:\Users\ddddd\source\repos\MainController v4\obj\Debug\MainController.FlowDesigner.Designer.resources
