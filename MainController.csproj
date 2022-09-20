@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\OpenCvSharp4.runtime.win.4.6.0.20220608\build\netstandard\OpenCvSharp4.runtime.win.props" Condition="Exists('packages\OpenCvSharp4.runtime.win.4.6.0.20220608\build\netstandard\OpenCvSharp4.runtime.win.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{49FA10E0-CCD0-4AE6-BAA6-578A8DE1C1F3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MainController</RootNamespace>
+    <AssemblyName>MainController</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ExcelDataReader, Version=3.6.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>packages\ExcelDataReader.3.6.0\lib\net45\ExcelDataReader.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader.DataSet, Version=3.6.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>packages\ExcelDataReader.DataSet.3.6.0\lib\net35\ExcelDataReader.DataSet.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialSkin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\MaterialSkin.0.2.1\lib\MaterialSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenCvSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6adad1e807fea099, processorArchitecture=MSIL">
+      <HintPath>packages\OpenCvSharp4.4.6.0.20220608\lib\netstandard2.0\OpenCvSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="ScottPlot, Version=4.1.57.0, Culture=neutral, PublicKeyToken=86698dc10387c39e, processorArchitecture=MSIL">
+      <HintPath>packages\ScottPlot.4.1.57\lib\net462\ScottPlot.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing.Common, Version=4.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Drawing.Common.4.6.1\lib\net461\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.InteropServices.RuntimeInformation.4.3.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ExecMonitor\MouseAction.cs" />
+    <Compile Include="ExecMonitor\Analysis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExecMonitor\Analysis.Designer.cs">
+      <DependentUpon>Analysis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExecMonitor\Analysis_func.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExecMonitor\AppEnv.cs" />
+    <Compile Include="FlowDesigner\Loop.cs" />
+    <Compile Include="NewIdea\O.cs" />
+    <Compile Include="NewIdea\OO.cs" />
+    <Compile Include="Shared\Const.cs" />
+    <Compile Include="FlowDesigner\Connector.cs" />
+    <Compile Include="FlowDesigner\Delay.cs" />
+    <Compile Include="FlowDesigner\Designer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FlowDesigner\Designer.Designer.cs">
+      <DependentUpon>Designer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExecMonitor\DesktopDrawing.cs" />
+    <Compile Include="ExecMonitor\FormBridge.cs" />
+    <Compile Include="FlowDesigner\Node.cs" />
+    <Compile Include="Shared\Squre.cs" />
+    <Compile Include="NewIdea\ImageMatch.cs" />
+    <Compile Include="ExecMonitor\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExecMonitor\Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExecMonitor\Minimap.cs" />
+    <Compile Include="ExecMonitor\Main_func.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FlowDesigner\Element.cs" />
+    <Compile Include="Shared\Palette.cs" />
+    <Compile Include="FlowDesigner\Operation.cs" />
+    <Compile Include="ExecMonitor\Settings_func.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExecMonitor\Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExecMonitor\Settings.Designer.cs">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExecMonitor\Hotkey.cs" />
+    <Compile Include="Shared\IO.cs" />
+    <Compile Include="ExecMonitor\MouseFlag.cs" />
+    <Compile Include="ExecMonitor\ParaCompare.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ExecMonitor\Result.cs" />
+    <Compile Include="ExecMonitor\ResultManager.cs" />
+    <Compile Include="ExecMonitor\ScreenShot.cs" />
+    <Compile Include="ExecMonitor\SPara.cs" />
+    <Compile Include="FlowDesigner\Start.cs" />
+    <Compile Include="FlowDesigner\Stop.cs" />
+    <Compile Include="ExecMonitor\TaskManager.cs" />
+    <Compile Include="ExecMonitor\TaskTree.cs" />
+    <Compile Include="NewIdea\TC.cs" />
+    <Compile Include="NewIdea\test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewIdea\test.Designer.cs">
+      <DependentUpon>test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExecMonitor\TestEnv.cs" />
+    <Compile Include="Shared\Util.cs" />
+    <EmbeddedResource Include="ExecMonitor\Analysis.resx">
+      <DependentUpon>Analysis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FlowDesigner\Designer.resx">
+      <DependentUpon>Designer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExecMonitor\Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExecMonitor\Settings.resx">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="NewIdea\test.resx">
+      <DependentUpon>test.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\target.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\analysis.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pause.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\read_paras.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start_str.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop_str.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scan.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yes.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sky.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\testImg.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bki.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>这台计算机上缺少此项目引用的 NuGet 程序包。使用“NuGet 程序包还原”可下载这些程序包。有关更多信息，请参见 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\OpenCvSharp4.runtime.win.4.6.0.20220608\build\netstandard\OpenCvSharp4.runtime.win.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\OpenCvSharp4.runtime.win.4.6.0.20220608\build\netstandard\OpenCvSharp4.runtime.win.props'))" />
+  </Target>
+</Project>
